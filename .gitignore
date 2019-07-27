@@ -21,3 +21,21 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+build
+captures
+.gradle
+.idea
+bin
+gen
+out
+*.iml
+.directory
+.idea/
+node_modules
+local.properties
+android/mobile/release/*
+ios.xcworkspace/
+
+.DS_Store
+
