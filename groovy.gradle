@@ -1,0 +1,8 @@
+ext.groovyBintrayUpload = {
+    taskBintrayUpload, publishing ->
+        taskBintrayUpload.publications = publishing.publications.collect {
+            it.name
+        }.findAll {
+            it != "kotlinMultiplatform"
+        }
+}

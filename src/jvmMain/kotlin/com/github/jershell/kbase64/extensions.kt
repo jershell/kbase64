@@ -1,4 +1,4 @@
-package kbase64
+package com.github.jershell.kbase64
 
 actual fun String.decodeBase64(): String = String(this.toByteArray().decodeBase64())
 actual fun String.decodeBase64ToByteArray(): ByteArray = this.toByteArray().decodeBase64()

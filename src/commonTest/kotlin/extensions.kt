@@ -1,5 +1,5 @@
-import kbase64.decodeBase64
-import kbase64.encodeToBase64
+import com.github.jershell.kbase64.decodeBase64
+import com.github.jershell.kbase64.encodeToBase64
 import kotlin.test.Test
 import kotlin.test.assertEquals
 

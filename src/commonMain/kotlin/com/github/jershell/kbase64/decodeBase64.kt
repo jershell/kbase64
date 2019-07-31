@@ -1,4 +1,4 @@
-package kbase64
+package com.github.jershell.kbase64
 
 fun ByteArray.decodeBase64(): ByteArray {
     val table = intArrayOf(-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,

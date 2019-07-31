@@ -1,4 +1,4 @@
-package kbase64
+package com.github.jershell.kbase64
 
 expect fun String.decodeBase64(): String
 expect fun String.decodeBase64ToByteArray() : ByteArray
