@@ -9,8 +9,29 @@ kotlin multiplatform base64 implementation
 - linuxX64
 
 ## Install
-```kotlin
 
+build.gradle.kts
+```kotlin
+repositories {
+    maven { url = uri("https://dl.bintray.com/jershell/generic") }
+}
+
+dependencies {
+    // FOR JVM
+    implementation("com.github.jershell:kbase64-jvm:0.0.1")
+}
+```
+
+build.gradle
+```groovy
+repositories {
+    maven { 'https://dl.bintray.com/jershell/generic' }
+}
+
+dependencies {
+    // FOR JVM
+    implementation 'com.github.jershell:kbase64-jvm:0.0.1'
+}
 ```
 ## API
 

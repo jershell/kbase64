@@ -22,6 +22,7 @@ tasks.bintrayUpload {
     doFirst {
         groovyBintrayUpload(this, publishing)
     }
+    dependsOn("publishToMavenLocal")
 }
 
 bintray {
@@ -52,6 +53,7 @@ bintray {
 
 repositories {
     jcenter()
+    maven { url = uri("https://dl.bintray.com/jershell/generic") }
 }
 
 kotlin {
